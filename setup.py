@@ -19,10 +19,10 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
 
 __version__ = "0.0.6"
-REPO_NAME = "mongodb_connector"
-PKG_NAME= "MongoConnect"
-AUTHOR_USER_NAME = "sunnysavita10"
-AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
+REPO_NAME = "mongodbconnectorpkg"
+PKG_NAME= "Mongo-connect" #name of the package
+AUTHOR_USER_NAME = "Ayorinde679"
+AUTHOR_EMAIL = "ayorindejayokunle@gmail.com"
 
 setup(
     name=PKG_NAME,
@@ -38,7 +38,7 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires = get_requiremet("./requirement_dev.txt")
+    install_requires = get_requiremet("./requirement_dev.txt") # ./ MEANS CUURRENT WORK SPACE
     
     
 )
